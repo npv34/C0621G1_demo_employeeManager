@@ -1,6 +1,6 @@
 <?php
-include_once "src/Employee.php";
-include_once "src/EmployeeManager.php";
+include_once "vendor/autoload.php";
+
 
 
 $employeeManager = new \src\EmployeeManager('data.json');
